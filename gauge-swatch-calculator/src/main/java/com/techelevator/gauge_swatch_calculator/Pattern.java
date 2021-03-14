@@ -1,22 +1,26 @@
 package com.techelevator.gauge_swatch_calculator;
 
 public class Pattern {
-	double gaugeLength;
-	double gaugeRows;
 	
-	public Pattern(double gaugeLength, double gaugeRows) {
-		this.gaugeLength = gaugeLength;
-		this.gaugeRows = gaugeRows;
-		
+	private double patternGaugeLength;
+	private double patternGaugeRows;
+	
+
+	public double getPatternGaugeLength() {
+		return patternGaugeLength;
 	}
 	
-	public double getGaugeLength() {
-		return gaugeLength;
+	public void setPatternGaugeLength(double patternGaugeLength) {
+		this.patternGaugeLength = patternGaugeLength;
 	}
 	
-	
-	public double getGaugeRows() {
-		return gaugeRows;
+	public double getPatternGaugeRows() {
+		return patternGaugeRows;
 	}
+	
+	public void setPatternGaugeRows(double patternGaugeRows) {
+		this.patternGaugeRows = patternGaugeRows;
+	}
+	
 
 }

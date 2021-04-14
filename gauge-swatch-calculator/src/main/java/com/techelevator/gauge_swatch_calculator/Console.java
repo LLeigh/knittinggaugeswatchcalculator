@@ -125,7 +125,7 @@ public class Console {
 		System.out.println();
 		System.out.println("1 - Enter another measurement for the same pattern");
 		System.out.println("2 - Check gauge on another pattern (Start at beginning)");
-		System.out.println("3 - Exit Knitting Calculator");
+		System.out.println("3 - Exit Knitting Gauge Calculator");
 		
 		String option = knitterInput.nextLine();
 		
